@@ -57,6 +57,11 @@ nav{
     
 
 }
+.btn:hover{
+    transition: 0.8s;
+    background-color: rgb(221, 214, 220);
+    border: none;
+}
 .petit{
     background-color:#fff;
     width: 500px;
@@ -68,6 +73,7 @@ nav{
 }
 .titre1{
     margin-bottom: 38px;
+    font-size: 60px;
 }
 .blog{
     height:90px ;
@@ -75,7 +81,7 @@ nav{
     background-color:#f5f5f570 ;
     position: absolute;
     left: 300px;
-    bottom: 8px;
+    bottom: 0px;
 }
 .sp2{
     display: flex;
@@ -102,7 +108,7 @@ nav{
     background-color: #fff;
     margin-top: 50px;
 }
-/*une autre page a commencer*/
+/*une autre page a commencee*/
 
 .parent1{
     width: 100%;
@@ -122,7 +128,8 @@ nav{
 
 }
 .im{
-    margin-top: 50px;
+    margin-top: 30px;
+
 }
 .photo{
     background-color: #1A1A1A;
@@ -138,7 +145,7 @@ nav{
     height: 20vh;
     width: 100%;
     justify-content: space-around;
-    margin-top: 40px;
+    margin-top: 60px;
     
 }
 .bouton{
@@ -149,13 +156,8 @@ nav{
     align-items: center;
     justify-content: center;
     border: 1px solid #1A1A1A ;
-    margin-top: 100px;
+    margin-top: 80px;
     margin-left: 100px;
-}
-.bouton :hover{
-    transition: 0.5s;
-    background-color: rgb(19, 18, 19);
-    border: none;
 }
 h3
 {
@@ -169,6 +171,7 @@ h3
 }
 .para{
     width: 60%;
+    color: rgb(88, 88, 88);
 
 }
 .mere{
@@ -179,13 +182,23 @@ h3
     height: 50vh;
     margin-top: 80px;
 }
+
 /* section nos services*/
 
 section{
     height: 150vh;
     width: 100%;
-
-    
+}
+.gradient{
+    width: 150px;
+    height: 90px;
+    transform: rotate(-30deg);
+    border-radius: 50px;
+    opacity: .45;
+    filter: blur(38px);
+    background: rgb(255,248,90);
+    background: radial-gradient(circle, rgb(90, 255, 255) 0%, rgba(0,194,255,1) 80%, rgba(255,2,169,0.9547991071428571) 100%);
+    margin-top: 150px;
 }
 .colum{
     height: 30vh;
@@ -227,11 +240,11 @@ section{
 }
 .bloc{
     height: 20vh;
-    margin-right: 50px;
+    margin-right: 70px;
 }
 .bloc2{
     height: 20vh;
-    margin-right: 50px;
+    margin-right: 70px;
 }
 .king{
     margin-top: 20px;
@@ -255,12 +268,17 @@ section{
     border: 1px solid #1A1A1A ;
     margin-top: 235px;
     position: absolute;
-    left: 815px;
-}
-.bouton a{
-    position: absolute;
-    right: center;
+    left: 797px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+.bouton1:hover{
+    transition: 0.5s;
+    background-color: rgb(22, 22, 22);
+    border: none;
 }
 
 
@@ -270,6 +288,28 @@ section{
 .boss{
     height: 140vh;
     width: 100%;
+}
+.gradient{
+    width: 200px;
+    height: 110px;
+    transform: rotate(-30deg);
+    border-radius: 50px;
+    opacity: .45;
+    filter: blur(38px);
+    background: rgb(255,248,90);
+    background: radial-gradient(circle, rgb(90, 255, 255) 0%, rgba(0,194,255,1) 80%, rgba(255,2,169,0.9547991071428571) 100%);
+}
+.gradient2{
+    width: 200px;
+    height: 110px;
+    transform: rotate(-30deg);
+    border-radius: 30px;
+    opacity: .45;
+    filter: blur(38px);
+    background: rgb(255,248,90);
+    background: radial-gradient(circle, rgb(90, 255, 255) 0%, rgba(0,194,255,1) 80%, rgba(255,2,169,0.9547991071428571) 100%);
+    margin-left: 40px;
+
 }
 
 .rectangle{
@@ -294,7 +334,8 @@ section{
 
 }
 
-/*la partie Que disent les clients ? */
+
+/*la partie Que disent les clients ? avec le footer ensuite*/
 
 .user{
     width: 100%;
@@ -303,7 +344,7 @@ section{
 }
 .biguser{
     height: 80vh;
-    width: 50%
+    width: 50%;
 }
 .right{
     height: 80vh;
@@ -312,6 +353,126 @@ section{
 .ecrit{
     width: 80%;
     
+}
+.genre{
+    width: 20%;
+    height: 15vh;
+    justify-content: flex-end;
+    justify-content: space-around;
+    margin-left: 490px;
+}
+.genre1{
+    height: 50px;
+    width: 60px;
+    background-color:#F6F5F1;
+    border: 1px solid black;
+}
+.genre2{
+    height: 50px;
+    width: 60px;
+    background-color: black;
+    border: 1px solid black;
+}
+
+
+
+
+
+/*le footer pour terminer*/
+.footer{
+    width: 100%;
+    height: 80vh;
+    background-color: #F6F5F1;
+}
+
+.footerleft{
+    width: 50%;
+    height: 80vh;
+    background-color: #1A1A1A;
+}
+.footerright{
+    width: 50%;
+    height: 80vh;
+
+}
+.iconer1{
+    height: 60px;
+    width: 60px;
+    border: solid 2px white;
+    border-radius: 50%;
+    background-color: #1A1A1A;
+
+}
+.iconer1 img{
+    margin-top: 7px;
+    margin-left: 10px;
+}
+.iconer{
+    margin-top: 100px;
+    width: 40%;
+    margin-left: 50px;
+}
+.iconer2{
+    height: 60px;
+    width: 60px;
+    border: solid 2px white;
+    border-radius: 50%;
+    background-color: white;
+}
+.iconer2 img{
+    margin-top: 9px;
+    margin-left: 9px;
+}
+.iconer3{
+    height: 60px;
+    width: 60px;
+    border: solid 2px white;
+    border-radius: 50%;
+}
+.iconer3 img{
+    margin-top: 6px;
+    margin-left: 11px;
+}
+.phrase1{
+    margin-top: 40px;
+    width: 73%;
+    margin-left: 60px;
+    color: rgb(97, 93, 93);
+}
+.phrase{
+    margin-top: 50px;
+    width: 90%;
+    margin-left: 60px;
+    color:rgb(97, 93, 93);
+} 
+
+
+.lettre{
+    
+    margin-top: 70px;
+    font-size: 20px;
+    color: white;
+}
+.form1{
+    width: 210px;
+    height: 43px;
+    background-color: white;
+    color: rgb(59, 59, 59);
+    margin-top: 30px;
+    border: 1px solid black;
+}
+.form{
+    width: 100%;
+    height: 35vh;
+    margin-top: 30px;
+}
+
+
+/*la fin du site*/
+
+.fin{
+    width: 100%;
+    height: 50vh;
 }
 
 
